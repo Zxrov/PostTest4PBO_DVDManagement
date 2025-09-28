@@ -43,3 +43,8 @@ OnlineMovie.java, class ini juga memperluas Film, tetapi menambahkan atribut pla
 
 ## 3. Polymorphism (Overriding & Overloading)
 
+Class Sewa.java memiliki method sewaFilm() yang dibuat dalam 2 versi (Overloading).
+
+<img width="1052" height="374" alt="image" src="https://github.com/user-attachments/assets/3c2b6e85-6ebe-4f63-a554-4c11a450d6df" />
+
+
