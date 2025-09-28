@@ -58,6 +58,9 @@ Method tampilkanInfo() pada class DVD merupakan contoh polymorphism melalui over
 
 # Implementasi Nilai Tambah
 
+- Menggunakan kombinasi abstract class dan interface secara bersamaan dalam program.
+---
+
 <img width="983" height="746" alt="image" src="https://github.com/user-attachments/assets/d47134fe-231d-457e-9372-532b8adb1497" />
 
 Program ini menggunakan kombinasi **abstract class** dan **interface** secara bersamaan.  
