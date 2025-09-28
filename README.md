@@ -25,3 +25,13 @@ Dokumentasi penerapan konsep OOP yang diminta dalam penugasan PostTest 4
 <img width="1066" height="755" alt="image" src="https://github.com/user-attachments/assets/b31ec203-85bb-42e2-a100-44af91cb3836" />
 
 Pada class Film.java, konsep abstraction diterapkan dengan menjadikannya abstract class dan mendefinisikan method abstrak tampilkanInfo() yang wajib dioverride oleh subclass. Konsep encapsulation terlihat dari atribut yang dibuat private serta diakses melalui getter dan setter. Selain itu, constructor digunakan untuk inisialisasi data awal dengan status default "Tersedia". Class ini menjadi dasar bagi subclass seperti DVD dan OnlineMovie dalam sistem penyewaan film.
+
+## 2. Inheritance
+
+<img width="1064" height="775" alt="image" src="https://github.com/user-attachments/assets/42d83303-51c4-40c1-96d3-ccbf70d7b13e" />
+DVD.java, class ini memperluas Film dan menambahkan atribut baru format. Selain itu, method tampilkanInfo() dioverride untuk menampilkan informasi khusus DVD, serta terdapat implementasi hitungHargaSewa() dengan aturan harga sewa Rp10.000 per hari dan diskon 10% untuk member.
+
+<img width="914" height="808" alt="image" src="https://github.com/user-attachments/assets/6296ced6-92ca-4768-b280-6c3bb476237c" />
+OnlineMovie.java, class ini juga memperluas Film, tetapi menambahkan atribut platform. Method tampilkanInfo() dioverride untuk menampilkan informasi khusus film online, dan hitungHargaSewa() dioverride dengan aturan harga Rp15.000 per hari serta diskon 15% untuk member.
+
+Inheritance ini memungkinkan kode lebih terstruktur karena atribut dan method umum didefinisikan sekali di superclass, lalu subclass hanya fokus menambahkan perilaku khusus sesuai kebutuhannya.
