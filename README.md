@@ -20,7 +20,7 @@ Implementasi OOP: **Abstraction, Encapsulation, Inheritance, Polymorphism (Overr
 
 Dokumentasi penerapan konsep OOP yang diminta dalam penugasan PostTest 4
 
-## Abstraction
+## 1. Abstraction
 
 <img width="1066" height="755" alt="image" src="https://github.com/user-attachments/assets/b31ec203-85bb-42e2-a100-44af91cb3836" />
 
