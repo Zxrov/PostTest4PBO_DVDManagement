@@ -17,3 +17,7 @@ Nilai tambah :
 Implementasi OOP: **Abstraction, Encapsulation, Inheritance, Polymorphism (Overriding & Overloading)**  
 
 ## Penerapan Konsep OOP
+
+Abstraction
+
+<img width="1066" height="755" alt="image" src="https://github.com/user-attachments/assets/b31ec203-85bb-42e2-a100-44af91cb3836" />
