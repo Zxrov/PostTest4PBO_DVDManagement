@@ -10,6 +10,8 @@ Dengan tambahan ketentuan sebagai berikut :
 Nilai tambah :
 - Menggunakan kombinasi abstract class dan interface secara bersamaan dalam program.
 
+---
+
 ## Implementasi Program PostTest 4
 
 Implementasi OOP: **Abstraction, Encapsulation, Inheritance, Polymorphism (Overriding & Overloading)**  
