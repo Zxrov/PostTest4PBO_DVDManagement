@@ -16,6 +16,12 @@ Nilai tambah :
 
 Implementasi OOP: **Abstraction, Encapsulation, Inheritance, Polymorphism (Overriding & Overloading)**  
 
+### Nilai Tambah
+Program ini menggunakan kombinasi **abstract class** dan **interface** secara bersamaan.  
+- Abstract class `Film` digunakan sebagai kerangka umum dengan method abstrak `tampilkanInfo()`.  
+- Interface `Sewa` digunakan untuk mendefinisikan perilaku penyewaan (`hitungHargaSewa()` dan `kembalikan()`).  
+- Class `DVD` dan `OnlineMovie` mewarisi dari `Film` sekaligus mengimplementasikan `Sewa`, sehingga menunjukkan kombinasi abstract class dan interface dalam satu program.
+
 ## Penerapan Konsep OOP
 
 Dokumentasi penerapan konsep OOP yang diminta dalam penugasan PostTest 4
