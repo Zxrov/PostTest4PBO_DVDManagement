@@ -43,13 +43,15 @@ OnlineMovie.java, class ini juga memperluas Film, tetapi menambahkan atribut pla
 
 ## 3. Polymorphism (Overriding & Overloading)
 
-Class Sewa.java memiliki method sewaFilm() yang dibuat dalam 2 versi (Overriding & Overloading).
+Terlihat pada class abstrak Film yang mendefinisikan kerangka umum film, serta interface Sewa yang mendeklarasikan method tanpa implementasi sehingga wajib diimplementasikan oleh subclass.
 
 <img width="763" height="528" alt="image" src="https://github.com/user-attachments/assets/d4d4e8e2-31bd-455e-a4b9-45990e87439f" />
+Method tampilkanInfo() pada class OnlineMovie juga merupakan contoh polymorphism melalui overriding. Method ini menimpa method abstrak tampilkanInfo() dari class induk Film, namun menampilkan detail khusus untuk film online, seperti informasi platform. Dengan begitu, saat dipanggil melalui referensi Film, objek OnlineMovie akan tetap menampilkan informasi sesuai jenisnya sendiri.
 
 ---
 
 <img width="957" height="532" alt="image" src="https://github.com/user-attachments/assets/16e0dc0a-f966-4086-b177-3f0a341a297b" />
+Method tampilkanInfo() pada class DVD merupakan contoh polymorphism melalui overriding. Method ini menimpa (override) method tampilkanInfo() yang ada di class induk Film. Dengan overriding, objek DVD akan menjalankan versi method yang spesifik miliknya sendiri, bukan milik class induk. Hal ini memungkinkan setiap subclass (DVD maupun OnlineMovie) menampilkan informasi sesuai karakteristik masing-masing, meskipun dipanggil dengan cara yang sama (film.tampilkanInfo()).
 
 
 
