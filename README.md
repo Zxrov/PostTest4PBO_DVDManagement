@@ -54,15 +54,19 @@ Method tampilkanInfo() pada class OnlineMovie juga merupakan contoh polymorphism
 <img width="957" height="532" alt="image" src="https://github.com/user-attachments/assets/16e0dc0a-f966-4086-b177-3f0a341a297b" />
 Method tampilkanInfo() pada class DVD merupakan contoh polymorphism melalui overriding. Method ini menimpa (override) method tampilkanInfo() yang ada di class induk Film. Dengan overriding, objek DVD akan menjalankan versi method yang spesifik miliknya sendiri, bukan milik class induk. Hal ini memungkinkan setiap subclass (DVD maupun OnlineMovie) menampilkan informasi sesuai karakteristik masing-masing, meskipun dipanggil dengan cara yang sama (film.tampilkanInfo()).
 
-### Nilai Tambah
+---
+
+### Implementasi Nilai Tambah
+
+<img width="983" height="746" alt="image" src="https://github.com/user-attachments/assets/d47134fe-231d-457e-9372-532b8adb1497" />
+
 Program ini menggunakan kombinasi **abstract class** dan **interface** secara bersamaan.  
 - Abstract class `Film` digunakan sebagai kerangka umum dengan method abstrak `tampilkanInfo()`.  
 - Interface `Sewa` digunakan untuk mendefinisikan perilaku penyewaan (`hitungHargaSewa()` dan `kembalikan()`).  
 - Class `DVD` dan `OnlineMovie` mewarisi dari `Film` sekaligus mengimplementasikan `Sewa`, sehingga menunjukkan kombinasi abstract class dan interface dalam satu program.
 
-<img width="983" height="746" alt="image" src="https://github.com/user-attachments/assets/d47134fe-231d-457e-9372-532b8adb1497" />
 
-Program ini telah menerapkan kombinasi abstract class dan interface secara bersamaan. Abstract class Film digunakan sebagai kerangka dasar yang mendefinisikan atribut umum dan method abstrak tampilkanInfo(). Interface Sewa mendefinisikan perilaku penyewaan dengan method hitungHargaSewa() dan kembalikan(). Class DVD dan OnlineMovie kemudian mewarisi Film sekaligus mengimplementasikan Sewa, sehingga dapat memanfaatkan fitur keduanya dalam satu implementasi.
+
 
 
 
